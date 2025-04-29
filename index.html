@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/LOGO.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shark Burgers Evento</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <img src="./assets/img/LOGO.png" alt="Shark Burgers Festival" />
+        </div>
+        <nav>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="menu">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#gallery">Galleria</a></li>
+            <li><a href="#countdown">Evento</a></li>
+            <li><a href="#tickets" class="btn btn-primary breathing-btn">Comprar Tickets</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="fade-in">SharkBurgers Eventos!</h1>
+            <h2 class="fade-in">Hamburgesas, Musica y Fiesta</h2>
+            <p class="fade-in">Unite a este evento de Hamburgesas, DJ en vivo, Stand Up y mucho más</p>
+            <div class="hero-buttons fade-in">
+              <a href="#countdown" class="btn btn-primary">Detalles del Evento</a>
+              <a href="#about" class="btn btn-secondary">Sobre Nosotros</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-overlay"></div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <img class="img-deco slide-in-left" src="./assets/img/montando tiburon2.png" alt="Hamburgesa y tiburon">
+          <div class="section-header">
+            <h2>Sobre el Evento</h2>
+            <div class="divider"><span></span></div>
+          </div>
+          <div class="about-content">
+            <div class="about-text slide-in-left">
+              <h3>Titulo 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo blanditiis laudantium aut maiores est ipsa ab? Corporis, fugiat aliquid! Consequuntur numquam at nihil rerum nemo suscipit perspiciatis, eaque doloribus.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium maxime, voluptates molestiae nihil vero, cumque quam, dolor incidunt recusandae ab distinctio aliquam ipsum vitae totam! Blanditiis odio sapiente dolor?</p>
+              <h3>Titulo 2</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ipsam, ullam quos quisquam voluptatem culpa aliquid eaque mollitia, laboriosam expedita odio tenetur totam, voluptate a eum error magnam ad quasi.</p>
+            </div>
+            <div class="about-image slide-in-right">
+              <img src="./assets/img/Hamburguesa curiosa con gorra azul.png" alt="Festival atmosphere" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="section-header">
+            <h2>Nuestras Delicias</h2>
+            <div class="divider"><span></span></div>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-item fade-in">
+              <img src="./assets/img/burger1.png" alt="Delicious burger" />
+            </div>
+            <div class="gallery-item fade-in">
+              <img src="./assets/img/burger2.png" alt="Delicious burger" />
+            </div>
+            <div class="gallery-item fade-in">
+              <img src="./assets/img/burger3.png" alt="Delicious burger" />
+            </div>
+          </div>
+          <div class="contenedor-deco2">
+            <!--<img class="img-deco3 slide-in-left" src="./assets/img/deco3-removebg-preview.png" alt="Hamburgesa cocinando">-->
+           <img class="img-deco3" src="./assets/img/deco3-removebg-preview.png" alt="Hamburgesa montando un tiburon">
+         </div>
+        </div>
+      </section>
+
+      <section id="countdown" class="countdown">
+        <div class="container">
+          <div class="section-header light">
+            <h2 class="titledif">Cuenta Regresiva para el Evento</h2>
+            <div class="divider"><span></span></div>
+          </div>
+          <div class="countdown-content">
+            <div class="event-details slide-in-left">
+              <div class="event-date">
+                <h3>Mayo 16, 2025</h3>
+                <p>SharkBurgers Evento!</p>
+                <p>Apertura: 11:00 AM</p>
+              </div>
+              <a href="https://www.passline.com" target="_blank" class="btn btn-secondary btn-large">Compra la entrada Ya!</a>
+            </div>
+            <div class="countdown-timer slide-in-right">
+              <div class="countdown-box">
+                <div class="countdown-unit">
+                  <span id="days" class="countdown-value">00</span>
+                  <span class="countdown-label">Dias</span>
+                </div>
+                <div class="countdown-unit">
+                  <span id="hours" class="countdown-value">00</span>
+                  <span class="countdown-label">Horas</span>
+                </div>
+                <div class="countdown-unit">
+                  <span id="minutes" class="countdown-value">00</span>
+                  <span class="countdown-label">Minutos</span>
+                </div>
+                <div class="countdown-unit">
+                  <span id="seconds" class="countdown-value">00</span>
+                  <span class="countdown-label">Segundos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container">
+          <div class="section-header">
+            <h2>Lo mejor del Evento</h2>
+            <div class="divider"><span></span></div>
+          </div>
+          <div class="features-grid">
+            <div class="feature-item fade-in">
+              <div class="feature-icon">
+                <img src="./assets/img/icono1-removebg-preview.png" alt="Gourmet Burgers" />
+              </div>
+              <h3>Hamburgesas Gourmet</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quos porro inventore magnam eveniet saepe quasi.</p>
+            </div>
+            <div class="feature-item fade-in">
+              <div class="feature-icon">
+                <img src="./assets/img/icono2-removebg-preview.png" alt="Live Music" />
+              </div>
+              <h3>DJ</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quos porro inventore magnam eveniet saepe quasi.</p>
+            </div>
+            <div class="feature-item fade-in">
+              <div class="feature-icon">
+                <img src="./assets/img/icono3-removebg-preview.png" alt="Craft Drinks" />
+              </div>
+              <h3>Buena Bebida</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quos porro inventore magnam eveniet saepe quasi.</p>
+            </div>
+            <div class="feature-item fade-in">
+              <div class="feature-icon">
+                <img src="./assets/img/icono4-removebg-preview.png" alt="Fun Activities" />
+              </div>
+              <h3>Show Stand Up</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quos porro inventore magnam eveniet saepe quasi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-deco">
+           <!--<img class="img-deco3 slide-in-left" src="./assets/img/deco3-removebg-preview.png" alt="Hamburgesa cocinando">-->
+          <img class="img-deco2 slide-in-right" src="./assets/img/montando tiburon.png" alt="Hamburgesa montando un tiburon">
+        </div>
+      </section>
+
+
+      <!--<section id="testimonials" class="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h2>What People Say</h2>
+            <div class="divider"><span></span></div>
+          </div>
+          <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+              <p>"The best food festival I've ever been to! Amazing burgers and great music!"</p>
+              <div class="testimonial-author">
+                <span>Maria Rodriguez</span>
+                <small>Festival Attendee 2024</small>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <p>"Incredible atmosphere and mind-blowing flavor combinations. Can't wait for next year!"</p>
+              <div class="testimonial-author">
+                <span>David Johnson</span>
+                <small>Food Blogger</small>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <p>"The perfect combination of gourmet food and fantastic music. A must-attend event!"</p>
+              <div class="testimonial-author">
+                <span>Carlos Mendez</span>
+                <small>Music Producer</small>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-controls">
+            <button class="testimonial-btn prev" aria-label="Previous testimonial">❮</button>
+            <div class="testimonial-dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+            <button class="testimonial-btn next" aria-label="Next testimonial">❯</button>
+          </div>
+        </div>
+      </section>-->
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="./assets/img/LOGO.png" alt="Shark Burgers Festival" />
+            <p>La mejor experiencia gastronomica que vas a vivir!</p>
+          </div>
+          <div class="footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#home">Inicio</a></li>
+              <li><a href="#about">Sobre Nosotros</a></li>
+              <li><a href="#gallery">Delicias</a></li>
+              <li><a href="#countdown">Evento</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contactanos</h4>
+            <p>Email: info@sharkburgersfestival.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Shark Burgers Festival. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <script src="./js/countdown.js"></script>
+    <script src="./js/counter.js"></script>
+    <script src="./js/animation.js"></script>
+  </body>
+</html>
